@@ -13,7 +13,7 @@ class Test2{
     public void setY(int b){_y = b;}
     public int getY(int b){return _y;}
 }
-class Stuff<T>{
+class Stuff<T>{ // even tho mv is an object, has methods as a tangeable thing
     private T _thing;
     public Stuff() {_thing = null;}
     public Stuff(T t){_thing = t;}
